@@ -1,0 +1,23 @@
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 544px) {  
+    #navmenu {font-size:0.8rem;} /*1rem = 16px*/
+  }
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    #navmenu {font-size:1.3rem;} /*1rem = 16px*/
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    #navmenu {font-size:1.5rem;} /*1rem = 16px*/
+  }
+   
+#align{
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#all{
+  padding-left: 30px;
+  padding-right: 20px;
+}
